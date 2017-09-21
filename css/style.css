@@ -1,0 +1,209 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  padding-left: 10px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h2, h3, h4, h5 {
+    margin: 0 auto;
+    line-height: 40px;
+    opacity: 0.9;
+}
+
+img {
+    padding-bottom: 10px;
+}
+
+.logo {
+  display: inline-flex;
+  align-content: space-between;
+
+}
+
+nav {
+  display: flex;
+  padding: 0 20px;
+}
+
+nav span {
+  display: inline-flex;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    color: seashell;
+    font-size: 22px;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    color: seashell;
+    font-size: 22px;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    color: seashell;
+    font-size: 22px;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    color: seashell;
+    font-size: 22px;
+}
+
+.topcontainer {
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  background-image: url(../resources/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topsection {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    width: 1200px;
+    height: 140px;
+  }
+
+.middlecontainer {
+  margin: 0 auto;
+  padding-bottom: 80px;
+  display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      background-color: black;
+      width: 1200px;
+}
+
+.varieties {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  width: 1200px;
+}
+
+.teamonth {
+  padding: 60px 0 20px 0;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      background-color: black;
+      width: 1200px;
+}
+
+.teaboxes {
+  justify-content: space-around;
+  flex-flow: row wrap;
+  background-color: black;
+  width: 1000px;
+}
+
+
+.flavor {
+  padding: 10px 10px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  width: 300px;
+}
+
+.bottomsection {
+  margin: 0 auto;
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../resources/img-locations-background.jpg);
+  background-repeat: no-repeat;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.textblocks {
+  display: inline-flex;
+  justify-content: center;
+    margin-bottom: 140px;
+  flex-direction: row;
+}
+
+.address {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  margin: 0 20px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+.contactinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.copyright {
+  font-size: 10px;
+  padding: 0 20px;
+  text-align: left;
+}
